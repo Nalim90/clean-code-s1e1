@@ -4,21 +4,21 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.information-section {
+.info-section {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.information-section img {
+.info-section img {
   width: 100%;
 }
-.information-section .information-details-link {
+.info-section .info-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .information-section { text-align: center;
+  .info-section { text-align: center;
   }
 }
 .main {
@@ -130,7 +130,7 @@ button.delete-button img:hover {
 }
 
 /* Completed */
-ul#completed-enumeration label {
+ul#done-list label {
   text-decoration: line-through;
   color: #888;
 }

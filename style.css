@@ -34,7 +34,8 @@
   margin: 0 auto 0;
 }
 
-.point-input, .task-label {
+.point-input,
+.task-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -53,7 +54,8 @@
   list-style: none;
 }
 
-.point-input,.button {
+.point-input,
+.button {
   outline: none;
 }
 
@@ -134,7 +136,7 @@
   width: 226px;
 }
 
-.task >    .point-input {
+.task > .point-input {
   width: 226px;
 }
 
